@@ -1,21 +1,30 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .home{
     text-align: center;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #282c34;
     .picture{
-        border: 20px solid rgba(255, 255, 255, 0.664);
+        border: 20px solid rgba(245, 222, 179, 0.664);
         margin: 20px;
         border-radius: 100%;
-        width: 12rem;
-        height: 12rem;
+        width: 0rem;
+        height: 0rem;
         background-image: url(../images/tresor.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        animation-name: picture;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 2;
     }
 
     .description{
@@ -25,12 +34,91 @@
         font-size: 2.5vw;
         padding: 20px;
     }
+
+    @keyframes picture {
+        30%{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0%;
+            border: 10px solid rgba(245, 222, 179, 0.664)
+        }
+
+        60%{
+            width: 8rem;
+            height: 8rem;
+            border-radius: 0%; 
+            border: 10px solid rgba(245, 222, 179, 0.664)
+        }
+        100%{
+            width: 12rem;
+            height: 12rem;
+            border-radius: 100%;
+            border: 20px solid rgba(245, 222, 179, 0.664)
+        }
+    }
 }
 
-.intro-cont{
-    padding: 40px;
-    color: wheat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.intro{
+    // background-color: rgba(255, 255, 255, 0.363);
+
+    .cont{
+        padding: 40px;
+        margin:auto;
+        color: wheat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: info-cont;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+        animation-delay: 5s;
+    }
+    @keyframes info-cont {
+        from{
+            margin-top: 0%; 
+        }
+        to{
+            margin-top: -15%;
+        }
+    }
+    .action{
+        .action-btn{
+            // background-color: yellow;
+            width: 30%;
+            padding: 10px;
+            font-weight: bold;
+            font-size: larger;
+            border: 2px solid rgba(255, 255, 0, 0.856);
+            border-radius: 4px;
+            background-color: inherit;
+            a{
+                color: wheat;
+                transition: color 1s;
+                text-decoration: none;
+            }
+            opacity: 0;
+            animation-name: action-apear;
+            animation-fill-mode: forwards;
+            animation-duration: 2s;
+            animation-delay: 5s;
+            background-image: none;
+            transition: all 1s;
+        }
+
+        .action-btn:hover{
+            background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.856),wheat);
+            a{
+                color: black;
+            }
+        }
+
+        @keyframes action-apear {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+    }
 }
