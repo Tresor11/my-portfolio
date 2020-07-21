@@ -48,7 +48,7 @@
         justify-content: space-around;
         i{
             /* Create the gradient. */
-            background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.856) 10%, #282c34 90%);
+            background-image: linear-gradient(45deg, rgba(128, 128, 23, 0.856) 10%, #282c34 90%);
             
             /* Set the background size and repeat properties. */
             background-size: 100%;
@@ -61,4 +61,18 @@
             padding: 10px;
         }
     }
+}
+
+.shadow{
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 9px 1px rgba(209,209,209,1);
+  -moz-box-shadow: 0px 5px 9px 1px rgba(209,209,209,1);
+  box-shadow: 0px 5px 9px 1px rgba(209,209,209,1);
+  transition: box-shadow 500ms;
+}
+
+.shadow:hover{
+    -webkit-box-shadow: 0px 10px 13px 0px rgba(87,87,87,1);
+-moz-box-shadow: 0px 10px 13px 0px rgba(87,87,87,1);
+box-shadow: 0px 10px 13px 0px rgba(87,87,87,1);
 }

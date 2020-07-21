@@ -28,7 +28,7 @@ html {
     }
 
     .description{
-        color: wheat;
+        color: whitesmoke;
         text-align: left;
         width: 35%;
         font-size: 2.5vw;
@@ -64,7 +64,7 @@ html {
     .cont{
         padding: 40px;
         margin:auto;
-        color: wheat;
+        color: whitesmoke;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -88,11 +88,11 @@ html {
             padding: 10px;
             font-weight: bold;
             font-size: larger;
-            border: 2px solid rgba(255, 255, 0, 0.856);
+            border: 2px solid rgba(196, 196, 36, 0.856);
             border-radius: 4px;
             background-color: inherit;
             a{
-                color: wheat;
+                color: whitesmoke;
                 transition: color 1s;
                 text-decoration: none;
             }
@@ -106,7 +106,7 @@ html {
         }
 
         .action-btn:hover{
-            background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.856),wheat);
+            background-image: linear-gradient(45deg, rgba(196, 196, 36, 0.856),wheat);
             a{
                 color: black;
             }

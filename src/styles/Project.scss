@@ -1,4 +1,151 @@
-.project-cont{
-    min-height: 100vh;
-    max-width: 100vw;
+.project-cont {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: whitesmoke;
+}
+.projects {
+  width: 60%;
+  margin: auto;
+
+  .project:nth-child(2) {
+    border-top: 8px solid #e2e980;
+    .img {
+      width: auto;
+      height: auto;
+      background-image: url(../images/home.png);
+      background-size: cover;
+      background-position: center;
+    }
+    .skills {
+      span {
+        border: 2px solid #e2e980;
+      }
+    }
+  }
+
+  .project:nth-child(1) {
+    border-top: 8px solid #8280e9;
+    .img {
+      width: auto;
+      height: auto;
+      background-image: url(../images/screencapture-localhost-3000-items-1595321030052.png);
+      background-size: cover;
+      background-position: center;
+    }
+    .skills {
+      span {
+        border: 2px solid #8280e9;
+      }
+    }
+  }
+
+  .project:nth-child(3) {
+    border-top: 8px solid #363a14;
+    .img {
+      width: auto;
+      height: auto;
+      background-image: url(../images/linter.png);
+      background-size: cover;
+      background-position: left;
+    }
+    .skills {
+      span {
+        border: 2px solid #363a14;
+      }
+    }
+  }
+
+  .project:nth-child(4) {
+    border-top: 8px solid  #80e9db;
+    .img {
+      width: auto;
+      height: auto;
+      background-image: url(../images/shoot.png);
+      background-size: cover;
+      background-position: center;
+    }
+    .skills {
+      span {
+        border: 2px solid #80e9db;
+      }
+    }
+  }
+
+  .project {
+    word-wrap: break-word;
+    color: #282c34;
+    line-height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+
+    .project-img {
+      position: absolute;
+      height: 50vmin;
+      width: 50vmin;
+      left: -20%;
+      top: 10%;
+      overflow: hidden;
+      border-radius: 100%;
+      .img {
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+        transition: all 0.5s;
+      }
+    }
+    .project-des {
+      display: inline;
+      margin-left: 20%;
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+      .des {
+        span {
+          display: block;
+          padding-bottom: 20px;
+          font-size: 2vw;
+          font-weight: bolder;
+        }
+      }
+
+      .skills {
+        display: flex;
+        span {
+          padding: 5px;
+          margin: 5px;
+          border-radius: 5px;
+          font-size: medium;
+        }
+      }
+
+      .links {
+        a {
+          border-radius: 5px;
+          padding: 10px;
+          margin: 10px;
+        }
+        a:nth-child(1) {
+          background-color: #66cdaa;
+          color: white;
+        }
+        a:nth-child(2) {
+          color: #66cdaa;
+        }
+      }
+    }
+
+    &:hover {
+      .img {
+        transform: scale(1.5);
+      }
+    }
+  }
 }
