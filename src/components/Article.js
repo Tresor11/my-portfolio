@@ -10,7 +10,14 @@ const Article = () => {
         </div>
       </Fade>
       <div className="articles">
+        <a href="#" className="article">
+          Creating Image Uploader in Rails 6 Using Cloudinary and Carrierwave
+        </a>
+        <a className="article">An Introduction to Backtracking in Ruby</a>
 
+        <a href="#" className="article">
+          The superpower of the order CSS property
+        </a>
       </div>
     </div>
   );

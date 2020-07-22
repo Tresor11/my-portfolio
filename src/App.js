@@ -3,7 +3,8 @@ import './styles/App.scss';
 import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
-import Article from './components/Article'
+import Article from './components/Article';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <Project/>
       <Article/>
+      <Contact/>
     </div>
   );
 }

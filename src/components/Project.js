@@ -114,7 +114,7 @@ const Project = () => {
           <Slide right>
             <div className="project-des">
               <p className="des">
-                <span>Weather-App</span> This project is a Weather Application that pulls from the
+                <span>Weather-App</span> This project is a reponsive Weather Application that pulls from the
                 OpenWeatherMap API to allow users to search for and view the
                 forecast in cities worldwide.
               </p>

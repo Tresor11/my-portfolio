@@ -1,28 +1,30 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Slide from 'react-reveal/Slide';
+import Slide from "react-reveal/Slide";
 
 const About = () => {
   return (
     <div className="about-cont" id="about">
-        <Fade top>
+      <Fade top>
         <div className="section-intro">
-        <h1>ABOUT</h1>
+          <h1>ABOUT</h1>
         </div>
-        </Fade>
+      </Fade>
       <div className="about">
         <div className="about-me">
+          <div className="pic-cont">
+            <div className="picture"></div>
+          </div>
           <Slide left>
             <p>
-              I'm Tresor,
-              <br /> a Freelance Full-Stack Developer based in Rwanda who loves
+              I'm Tresor, a Freelance Full-Stack Developer based in Rwanda who loves
               to build Fast and Powerfull Backed services and web apps with
               intuitive UI.feel free to connect with me.
             </p>
           </Slide>
         </div>
         <Slide right>
-        <div className="skills">
+          <div className="skills">
             <i class="devicon-rails-plain-wordmark"></i>
             <i class="devicon-react-original-wordmark"></i>
             <i class="devicon-ruby-plain-wordmark"></i>
@@ -35,7 +37,7 @@ const About = () => {
             <i class="devicon-bootstrap-plain-wordmark"></i>
             <i class="devicon-sass-original"></i>
             <i class="devicon-webpack-plain-wordmark"></i>
-        </div>
+          </div>
         </Slide>
       </div>
     </div>

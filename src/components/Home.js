@@ -6,12 +6,10 @@ const Home=()=>{
         <div className="home">
             <div className="intro">
                 <div className='cont'>
-                <div className="picture">
-                </div>
                 <div className="description">
                 <TypeIt
         options={{
-          strings: ["Hello👋!","I'm <strong>Tresor</strong> a Full Stack Developer based in Rwanda."],
+          strings: ["Hello👋!","I'm <strong>Tresor Bireke</strong> a Full Stack Web Developer."],
           speed: 40,
         waitUntilVisible: true
         }}

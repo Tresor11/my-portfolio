@@ -2,10 +2,15 @@
   min-height: 100vh;
   max-width: 100vw;
   background-color: whitesmoke;
+  padding: 20px;
 }
 .projects {
   width: 60%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .project:nth-child(2) {
     border-top: 8px solid #e2e980;
@@ -56,7 +61,7 @@
   }
 
   .project:nth-child(4) {
-    border-top: 8px solid  #80e9db;
+    border-top: 8px solid #80e9db;
     .img {
       width: auto;
       height: auto;
@@ -75,8 +80,8 @@
     word-wrap: break-word;
     color: #282c34;
     line-height: 30px;
-    margin-top: 20px;
     border-radius: 5px;
+    margin-top: 20px;
     font-weight: lighter;
     font-size: 1.5vw;
     width: 100%;
@@ -111,13 +116,14 @@
         span {
           display: block;
           padding-bottom: 20px;
-          font-size: 2vw;
+          font-size: 2rem;
           font-weight: bolder;
         }
       }
 
       .skills {
         display: flex;
+        flex-wrap: wrap;
         span {
           padding: 5px;
           margin: 5px;
@@ -127,6 +133,8 @@
       }
 
       .links {
+        display: flex;
+        flex-wrap: wrap;
         a {
           border-radius: 5px;
           padding: 10px;
@@ -145,6 +153,58 @@
     &:hover {
       .img {
         transform: scale(1.5);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    width: 80%;
+    .project {
+      position: static;
+      flex-direction: column;
+      .project-img {
+        border-radius: 0px;
+        width: 100%;
+        position: static;
+        .img {
+          border-radius: 0%;
+        }
+      }
+
+      .project-des {
+        margin-left: 0%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .projects {
+    width: 80%;
+    .project {
+      .project-img {
+        left: -10%;
+        width: 35vmin;
+        height: 35vmin;
+      }
+
+      .project-des {
+        .des {
+          font-size: medium;
+        }
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2px;
+      }
+
+      .links {
+        background-color: rebeccapurple;
+        margin: -5px;
       }
     }
   }
