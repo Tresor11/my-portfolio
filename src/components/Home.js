@@ -3,7 +3,14 @@ import TypeIt from "typeit-react";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
+      <div className="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#articles">ARTICLES</a>
+        <a href="#contacts">CONTACTS</a>
+      </div>
       <div className="intro">
         <div className="cont">
           <div className="description">

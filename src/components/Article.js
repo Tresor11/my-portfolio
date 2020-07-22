@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 const Article = () => {
   return (
-    <div className="article-cont" id="article">
+    <div className="article-cont" id="articles">
       <Fade top>
         <div className="section-intro">
           <h1>ARTICLES</h1>

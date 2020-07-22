@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 const Contact = () => {
   return (
-    <div className="contact-cont" id="contact">
+    <div className="contact-cont" id="contacts">
       <Fade top>
         <div className="section-intro">
           <h1>CONTACT ME!</h1>
