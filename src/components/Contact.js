@@ -10,23 +10,43 @@ const Contact = () => {
         </div>
       </Fade>
       <div className="contact">
-        <a>
+        <a
+          href="mailto:tresor.moise2001@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i class="fa fa-envelope    "></i>
         </a>
 
-        <a>
+        <a
+          href="https://www.linkedin.com/in/tresor-bireke/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i class="fa fa-linkedin    "></i>
         </a>
 
-        <a>
+        <a
+          href="https://twitter.com/TBireke"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i class="fa fa-twitter    "></i>
         </a>
 
-        <a>
+        <a
+          href="https://github.com/Tresor11"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i class="fa fa-github"></i>
         </a>
 
-        <a>
+        <a
+          href="https://medium.com/@tresor.moise2001"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <i class="fa fa-medium    "></i>
         </a>
       </div>

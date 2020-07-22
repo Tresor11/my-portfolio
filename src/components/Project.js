@@ -34,11 +34,21 @@ const Project = () => {
                 <span>JWT</span>
               </p>
               <p className="links">
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://resell-app.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Live Demo{" "}
                   <i class="fa fa-external-link-alt" aria-hidden="true"></i>
                 </a>
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://github.com/Tresor11/final-capstone"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   View Source <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </p>
@@ -67,11 +77,21 @@ const Project = () => {
                 <span>SASS</span>
               </p>
               <p className="links">
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://recipes-catalogue.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Live Demo{" "}
                   <i class="fa fa-external-link-alt" aria-hidden="true"></i>
                 </a>
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://github.com/Tresor11/recipes-catalogue"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   View Source <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </p>
@@ -97,7 +117,12 @@ const Project = () => {
                 <span>Rspec</span>
               </p>
               <p className="links">
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://github.com/Tresor11/css-linter"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   View Source <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </p>
@@ -114,9 +139,9 @@ const Project = () => {
           <Slide right>
             <div className="project-des">
               <p className="des">
-                <span>Weather-App</span> This project is a reponsive Weather Application that pulls from the
-                OpenWeatherMap API to allow users to search for and view the
-                forecast in cities worldwide.
+                <span>Weather-App</span> This project is a reponsive Weather
+                Application that pulls from the OpenWeatherMap API to allow
+                users to search for and view the forecast in cities worldwide.
               </p>
               <p className="skills">
                 <span>JavaScript</span>
@@ -124,11 +149,21 @@ const Project = () => {
                 <span>CSS3</span>
               </p>
               <p className="links">
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://rawcdn.githack.com/Tresor11/weather-app/4f9168043619b255732e9fe95c99197d22b5ddfe/dist/index.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Live Demo{" "}
                   <i class="fa fa-external-link-alt" aria-hidden="true"></i>
                 </a>
-                <a className="shadow">
+                <a
+                  className="shadow"
+                  href="https://github.com/Tresor11/weather-app"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   View Source <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </p>
