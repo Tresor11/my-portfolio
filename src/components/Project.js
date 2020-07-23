@@ -19,18 +19,19 @@ const Project = () => {
           <Slide right>
             <div className="project-des">
               <p className="des">
-                <span>Resell-App</span>This project a Resell-App allowing users
-                to buy or resell their partially used items. The items are
-                uploaded by the admin, and users can view or add them to their
-                wish list and are provided with the information of the owner to
-                discuss the price. The items are saved and retrieved from a
-                Rails API built for this project.
+                <span>Resell-App</span>
+                This project a Resell-App allowing users to buy or resell their
+                partially used items. The items are uploaded by the admin, users
+                can view or add them to their wish list and are provided with
+                the information of the owner to discuss the price. The items are
+                saved and retrieved from a Rails API built for this project.
               </p>
               <p className="skills">
                 <span>JavaScript</span>
                 <span>Ruby</span>
                 <span>React</span>
                 <span>Rails</span>
+                <span>PostgreSQL</span>
                 <span>JWT</span>
               </p>
               <p className="links">
@@ -74,7 +75,7 @@ const Project = () => {
                 <span>JavaScript</span>
                 <span>React</span>
                 <span>HTML</span>
-                <span>SASS</span>
+                <span>Sass</span>
               </p>
               <p className="links">
                 <a
@@ -139,14 +140,16 @@ const Project = () => {
           <Slide right>
             <div className="project-des">
               <p className="des">
-                <span>Weather-App</span> This project is a reponsive Weather
-                Application that pulls from the OpenWeatherMap API to allow
-                users to search for and view the forecast in cities worldwide.
+                <span>Weather-App</span>
+                This project is a responsive Weather application that pulls the
+                data from the OpenWeatherMap API allowing users to search and
+                view the forecast in cities worldwide. The app allows users to
+                cover the temperature in Celcius or Kelvin.
               </p>
               <p className="skills">
                 <span>JavaScript</span>
-                <span>HTMLs</span>
-                <span>CSS3</span>
+                <span>HTML</span>
+                <span>CSS</span>
               </p>
               <p className="links">
                 <a

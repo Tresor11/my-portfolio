@@ -22,7 +22,7 @@ const About = () => {
             <p>
               I'm Tresor, a Freelance Full-Stack Developer based in Rwanda who
               loves to build Fast and Powerfull Backed services and web apps
-              with intuitive UI.feel free to <span>connect with me</span>.
+              with intuitive UI.feel free to <a href="#contact" rel="noopener noreferrer" target="_blank">connect with me</a>.
               <br />
               <a href={resume} rel="noopener noreferrer" target="_blank">
                 <button className="resume">Check out my resume</button>
