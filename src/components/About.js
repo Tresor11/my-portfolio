@@ -14,7 +14,9 @@ const About = () => {
       <div className="about">
         <div className="about-me">
           <div className="pic-cont">
+          <Fade bottom>
             <div className="picture"></div>
+          </Fade>
           </div>
           <Slide left>
             <p>

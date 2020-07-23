@@ -9,6 +9,7 @@ const Article = () => {
           <h1>ARTICLES</h1>
         </div>
       </Fade>
+      <Fade bottom>
       <div className="articles">
         <a
           href="https://hackernoon.com/creating-image-uploader-in-rails-6-using-cloudinary-and-carrierwave-jp173u1w"
@@ -23,7 +24,6 @@ const Article = () => {
           rel="noopener noreferrer"
           target="_blank"
           className="article"
-          className="article"
         >
           An Introduction to Backtracking in Ruby
         </a>
@@ -37,6 +37,7 @@ const Article = () => {
           The superpower of the order CSS property
         </a>
       </div>
+      </Fade>
     </div>
   );
 };

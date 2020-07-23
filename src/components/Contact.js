@@ -9,6 +9,7 @@ const Contact = () => {
           <h1>CONTACT ME!</h1>
         </div>
       </Fade>
+      <Fade bottom>
       <div className="contact">
         <a
           href="mailto:tresor.moise2001@gmail.com"
@@ -50,6 +51,7 @@ const Contact = () => {
           <i class="fa fa-medium    "></i>
         </a>
       </div>
+      </Fade>
       <div className="footer">
         <p>Made with 💖 by Tresor bireke © 2020</p>
       </div>
