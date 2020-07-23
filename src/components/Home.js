@@ -1,7 +1,5 @@
 import React from "react";
 import TypeIt from "typeit-react";
-import Particles from 'react-particles-js';
-import * as params from './particle.json';
 
 const Home = () => {
   return (
@@ -34,14 +32,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-
-      {/* .ripple-background
-  .circle.xxlarge.shade1
-  .circle.xlarge.shade2
-  .circle.large.shade3
-  .circle.mediun.shade4
-  .circle.small.shade5 */}
-
+      
       <div className="ripple-background">
         <div  className=" circle xxlarge shade1"></div>
         <div  className=" circle xlarge shade2"></div>
