@@ -66,7 +66,7 @@ const Project = () => {
           <Slide right>
             <div className="project-des">
               <p className="des">
-                <span>Recipes-Catalog</span>This project is a react app that
+                <span>Recipes-Catalog</span>This project is a React App that
                 fetches the data from themealBD API and allows anyone to browse
                 different categories of meals and get the details such as the
                 origin and the ingredients for a specific recipe.
@@ -144,7 +144,7 @@ const Project = () => {
                 This project is a responsive Weather application that pulls the
                 data from the OpenWeatherMap API allowing users to search and
                 view the forecast in cities worldwide. The app allows users to
-                cover the temperature in Celcius or Kelvin.
+                convert the temperature in Celcius or Kelvin.
               </p>
               <p className="skills">
                 <span>JavaScript</span>

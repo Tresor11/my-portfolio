@@ -14,15 +14,16 @@ const About = () => {
       <div className="about">
         <div className="about-me">
           <div className="pic-cont">
-          <Fade bottom>
-            <div className="picture"></div>
-          </Fade>
+            <Fade bottom>
+              <div className="picture"></div>
+            </Fade>
           </div>
           <Slide left>
             <p>
-              I'm Tresor, a Freelance Full-Stack Developer based in Rwanda who
-              loves to build Fast and Powerfull Backed services and web apps
-              with intuitive UI.feel free to <a href="#contact" rel="noopener noreferrer" target="_blank">connect with me</a>.
+              I'm Tresor, a Freelance Full Stack Web Developer based in Rwanda
+              who loves to build fast and powerful Back-End services and Web apps
+              with intuitive UI. Feel free to{" "}
+              <a href="#contacts">connect with me</a>.
               <br />
               <a href={resume} rel="noopener noreferrer" target="_blank">
                 <button className="resume">Check out my resume</button>

@@ -141,7 +141,8 @@ a {
     .action {
       a {
         .action-btn {
-          color: black
+          color: black;
+          font-weight: bolder;
         }
       }
     }
@@ -224,4 +225,19 @@ a {
   100% {
     transform: scale(0.8);
   }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color:#282c34 ;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 10px;
 }
