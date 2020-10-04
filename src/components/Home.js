@@ -14,16 +14,8 @@ const Home = () => {
       <div className="intro">
         <div className="cont">
           <div className="description">
-            <TypeIt
-              options={{
-                strings: [
-                  "Hello👋, I'm <strong>Tresor Bireke</strong>.",
-                  "I'm a Full Stack Web Developer.",
-                ],
-                speed: 40,
-                waitUntilVisible: true,
-              }}
-            />
+                  Hello👋, I'm <strong>Tresor Bireke</strong>.<br/>
+                  I'm a Full Stack Web Developer.
           </div>
         </div>
         <div className="action">
@@ -32,7 +24,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      
+
       <div className="ripple-background">
         <div  className=" circle xxlarge shade1"></div>
         <div  className=" circle xlarge shade2"></div>
