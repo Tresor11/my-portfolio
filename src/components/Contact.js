@@ -12,7 +12,7 @@ const Contact = () => {
       <Fade bottom>
       <div className="contact">
         <a
-          href="mailto:tresor.moise2001@gmail.com"
+          href="mailto:bireketresor@gmail.com"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -44,7 +44,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://medium.com/@tresor.moise2001"
+          href="https://medium.com/@tresor-bireke"
           rel="noopener noreferrer"
           target="_blank"
         >
