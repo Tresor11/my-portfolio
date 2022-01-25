@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import resume from "../images/Resume.pdf";
+import resume from "../images/Tresor_Resume.pdf";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <Slide left>
             <p>
-              I'm Tresor, a Freelance Full Stack Web Developer based in Rwanda
+              I'm Tresor, a Full Stack Web Developer
               who loves to build fast and powerful Back-End services and Web apps
               with intuitive UI. Feel free to{" "}
               <a href="#contacts">connect with me</a>.
