@@ -24,7 +24,7 @@ const Project = () => {
                 partially used items. The items are uploaded by the admin, users
                 can view or add them to their wish list and are provided with
                 the information of the owner to discuss the price. The items are
-                saved and retrieved from a Rails API built for this project.
+                saved and retrieved from a Rails API.
               </p>
               <p className="skills">
                 <span>JavaScript</span>
