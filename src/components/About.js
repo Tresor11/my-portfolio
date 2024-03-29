@@ -22,12 +22,11 @@ const About = () => {
             <p>
               I'm Tresor, a Full Stack Web Developer
               who loves to build fast and powerful Back-End services and Web apps
-              with intuitive UI. Feel free to{" "}
+              with intuitive UI. <br/>
+              I'm currently working at <b><a href="https://thoughtbot.com/">Thoughtbot</a></b> as a Senior developer.
+              Feel free to{" "}
               <a href="#contacts">connect with me</a>.
               <br />
-              <a href={resume} rel="noopener noreferrer" target="_blank">
-                <button className="resume">Check out my resume</button>
-              </a>
             </p>
           </Slide>
         </div>
@@ -42,7 +41,10 @@ const About = () => {
             <i class="devicon-postgresql-plain-wordmark"></i>
             <i class="devicon-mysql-plain-wordmark"></i>
             <i class="devicon-github-plain-wordmark"></i>
+            <i class="devicon-amazonwebservices-plain-wordmark"></i>
+            <i class="devicon-redis-plain"></i>
             <i class="devicon-bootstrap-plain-wordmark"></i>
+            <i class="devicon-tailwindcss-original"></i>
             <i class="devicon-sass-original"></i>
             <i class="devicon-webpack-plain-wordmark"></i>
           </div>

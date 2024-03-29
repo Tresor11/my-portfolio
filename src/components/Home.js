@@ -7,7 +7,6 @@ const Home = () => {
       <div className="nav">
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
         <a href="#articles">ARTICLES</a>
         <a href="#contacts">CONTACTS</a>
       </div>
@@ -20,7 +19,7 @@ const Home = () => {
         </div>
         <div className="action">
           <a href="#about">
-            <button className="action-btn button">View my work</button>
+            <button className="action-btn button">More about me</button>
           </a>
         </div>
       </div>

@@ -19,6 +19,34 @@ const Article = () => {
         >
           Creating Image Uploader in Rails 6 Using Cloudinary and Carrierwave
         </a>
+
+        <a
+          href="https://tresor-bireke.medium.com/making-your-rails-app-more-efficient-with-transactions-dc8cb9a43f5c"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          Ensuring Data Integrity in Ruby on Rails using Transactions
+        </a>
+
+        <a
+          href="https://tresor-bireke.medium.com/should-you-use-active-model-f4f7c790b729"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          Should you use Active Model?
+        </a>
+
+        <a
+          href="https://tresor-bireke.medium.com/easily-create-an-admin-interface-in-rails-with-active-admin-7474b4fd0c0e"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          Easily create an admin interface in Rails with active admin
+        </a>
+
         <a
           href="https://hackernoon.com/an-introduction-to-backtracking-in-ruby-fb5z32so"
           rel="noopener noreferrer"
