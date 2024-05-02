@@ -12,6 +12,14 @@ const Article = () => {
       <Fade bottom>
       <div className="articles">
         <a
+          href="https://thoughtbot.com/blog/rack_test-or-selenium"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          Rack_Test or Selenium ?
+        </a>
+        <a
           href="https://hackernoon.com/creating-image-uploader-in-rails-6-using-cloudinary-and-carrierwave-jp173u1w"
           rel="noopener noreferrer"
           target="_blank"
