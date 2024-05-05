@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <Slide left>
             <p>
-              I'm Tresor, a Full Stack Web Developer
+              I'm Tresor, a Full Stack Software Developer
               who loves to build fast and powerful Back-End services and Web apps
               with intuitive UI. <br/>
               I'm currently working as a <strong>Senior developer</strong> at <strong><a href="https://thoughtbot.com/">Thoughtbot</a></strong>.<br/>
