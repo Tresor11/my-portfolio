@@ -12,6 +12,14 @@ const Article = () => {
       <Fade bottom>
       <div className="articles">
         <a
+          href="https://thoughtbot.com/blog/one-way-vs-two-way-door-decisions"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          One-way vs Two-way door decisions
+        </a>
+        <a
           href="https://thoughtbot.com/blog/rack_test-or-selenium"
           rel="noopener noreferrer"
           target="_blank"
