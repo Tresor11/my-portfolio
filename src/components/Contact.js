@@ -53,7 +53,7 @@ const Contact = () => {
       </div>
       </Fade>
       <div className="footer">
-        <p>Made with 💖 by Tresor bireke © 2020</p>
+        <p>Made with 💖 by Tresor bireke © 2024</p>
       </div>
     </div>
   );
