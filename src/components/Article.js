@@ -12,6 +12,14 @@ const Article = () => {
       <Fade bottom>
       <div className="articles">
         <a
+          href="https://thoughtbot.com/blog/migrating-from-feature-specs-to-system-specs"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="article"
+        >
+          Migrating from feature specs to system specs
+        </a>
+        <a
           href="https://thoughtbot.com/blog/one-way-vs-two-way-door-decisions"
           rel="noopener noreferrer"
           target="_blank"
