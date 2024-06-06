@@ -3,7 +3,7 @@ import './styles/App.scss';
 import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
-import Article from './components/Article';
+import Articles from './components/Articles';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Home/>
       <About/>
-      <Article/>
+      <Articles/>
       <Contact/>
     </div>
   );
