@@ -14,6 +14,21 @@ const Articles = () => {
       <div className="articles">
 
         <ArticleLink
+          title={"Migrating from feature specs to system specs"}
+          link={"https://thoughtbot.com/blog/migrating-from-feature-specs-to-system-specs"}
+        />
+
+        <ArticleLink
+          title={"One-way vs Two-way door decisions"}
+          link={"https://thoughtbot.com/blog/one-way-vs-two-way-door-decisions"}
+        />
+
+        <ArticleLink
+          title={"Rack_Test or Selenium ?"}
+          link={"https://thoughtbot.com/blog/rack_test-or-selenium"}
+        />
+
+        <ArticleLink
           title={"Creating Image Uploader in Rails 6 Using Cloudinary and Carrierwave"}
           link={"https://hackernoon.com/creating-image-uploader-in-rails-6-using-cloudinary-and-carrierwave-jp173u1w"}
         />
