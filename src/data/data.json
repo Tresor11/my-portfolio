@@ -1,0 +1,60 @@
+{
+  "contact": {
+    "email": "bireketresor@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tresor-bireke/",
+    "twitter": "https://twitter.com/TBireke",
+    "github": "https://github.com/Tresor11",
+    "medium": "https://medium.com/@tresor-bireke",
+    "sectionTitle": "CONTACT ME!"
+  },
+  "articles":{
+  "sectionTitle": "Articles",
+  "collection": [
+    {
+      "title": "Finding the opposite of what you have with rails invert_where",
+      "link": "https://thoughtbot.com/blog/finding-the-opposite-of-what-you-have-with-rails-invert_where"
+    },
+    {
+      "title": "Using the Presenter Pattern in Ruby on Rails",
+      "link": "https://thoughtbot.com/blog/using-the-presenter-pattern-in-ruby-on-rails"
+    },
+    {
+      "title": "Rails 8’s Propshaft, A Sprockets’ quiet replacement?",
+      "link": "https://thoughtbot.com/blog/rails-8-s-propshaft-a-sprockets-quiet-replacement"
+    },
+    {
+      "title": "Migrating from feature specs to system specs",
+      "link": "https://thoughtbot.com/blog/migrating-from-feature-specs-to-system-specs"
+    },
+    {
+      "title": "Creating static data for your Rails application",
+      "link": "https://thoughtbot.com/blog/creating-static-data-for-your-rails-application"
+    },
+    {
+      "title": "One-way vs Two-way door decisions",
+      "link": "https://thoughtbot.com/blog/one-way-vs-two-way-door-decisions"
+    },
+    {
+      "title": "Rack_Test or Selenium ?",
+      "link": "https://thoughtbot.com/blog/rack_test-or-selenium"
+    },
+    {
+      "title": "An Introduction to Backtracking in Ruby",
+      "link": "https://hackernoon.com/an-introduction-to-backtracking-in-ruby-fb5z32so"
+    },
+    {
+      "title": "An Introduction to Backtracking in Ruby",
+      "link": "https://hackernoon.com/an-introduction-to-backtracking-in-ruby-fb5z32so"
+    },
+    {
+      "title": "Creating Image Uploader in Rails 6 Using Cloudinary and Carrierwave",
+      "link": "https://hackernoon.com/creating-image-uploader-in-rails-6-using-cloudinary-and-carrierwave-jp173u1w"
+    },
+    {
+      "title": "The superpower of the order CSS property",
+      "link": "https://medium.com/@tresor.moise2001/the-superpower-of-the-order-css-property-and-the-cool-things-you-can-do-with-it-using-flex-and-36a86c1a80e8"
+    }
+  ]
+  },
+  "footer": "Made with 💖 by Tresor bireke © 2025"
+}

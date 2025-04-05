@@ -1,14 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import resume from "../images/Tresor_Resume.pdf";
 
 const About = () => {
   return (
     <div className="about-cont" id="about">
       <Fade top>
         <div className="section-intro">
-          <h1>ABOUT</h1>
+          <h1>ABOUT ME</h1>
         </div>
       </Fade>
       <div className="about">

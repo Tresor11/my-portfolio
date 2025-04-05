@@ -1,12 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import data from '../data/data.json';
 
 const Contact = () => {
   return (
     <div className="contact-cont" id="contacts">
       <Fade top>
         <div className="section-intro">
-          <h1>CONTACT ME!</h1>
+          <h1>{data.contact.sectionTitle}</h1>
         </div>
       </Fade>
       <Fade bottom>
@@ -53,7 +54,7 @@ const Contact = () => {
       </div>
       </Fade>
       <div className="footer">
-        <p>Made with 💖 by Tresor bireke © 2024</p>
+        <p>{data.footer}</p>
       </div>
     </div>
   );
