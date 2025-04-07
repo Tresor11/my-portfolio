@@ -11,6 +11,10 @@
   "sectionTitle": "Articles",
   "collection": [
     {
+      "title": "Avoiding N+1 queries the Railsy way with strict loading",
+      "link": "https://thoughtbot.com/blog/strict-loading-in-rails-8-a-railsy-way-to-avoid-n-1-queries"
+    },
+    {
       "title": "Finding the opposite of what you have with rails invert_where",
       "link": "https://thoughtbot.com/blog/finding-the-opposite-of-what-you-have-with-rails-invert_where"
     },
