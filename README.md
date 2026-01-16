@@ -1,2 +1,2 @@
-### Hey there👋🏽, Welcome to my minimalistic portfolio🎨.
+### Hey there👋🏽, Welcome to my minimalistic portfolio🎨
 
