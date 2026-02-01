@@ -54,7 +54,7 @@ const Contact = () => {
       </div>
       </Fade>
       <div className="footer">
-        <p>{data.footer}</p>
+        <p>{data.footer} {"©" + new Date().getFullYear()}</p>
       </div>
     </div>
   );
