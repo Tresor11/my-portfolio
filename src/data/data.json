@@ -11,6 +11,22 @@
   "sectionTitle": "Articles",
   "collection": [
     {
+      "title": "Working across time zones: When async becomes the default",
+      "link": "https://thoughtbot.com/blog/working-across-time-zones-when-async-becomes-the-default"
+    },
+    {
+      "title": "Fear isn’t the enemy in teamwork — silence is.",
+      "link": "https://thoughtbot.com/blog/fear-isn-t-the-enemy-in-teamwork-silence-is"
+    },
+    {
+      "title": "Querying encrypted data in Rails using Deterministic Encryption",
+      "link": "https://thoughtbot.com/blog/querying-encrypted-data-in-rails-using-deterministic-encryption"
+    },
+    {
+      "title": "Sorting elegantly in Rails with in_order_of",
+      "link": "https://thoughtbot.com/blog/sorting-elegantly-in-rails-with-in_order_of"
+    },
+    {
       "title": "Avoiding N+1 queries the Railsy way with strict loading",
       "link": "https://thoughtbot.com/blog/strict-loading-in-rails-8-a-railsy-way-to-avoid-n-1-queries"
     },
@@ -60,5 +76,5 @@
     }
   ]
   },
-  "footer": "Made with 💖 by Tresor bireke © 2025"
+  "footer": "Made with 💖 by Tresor bireke"
 }
